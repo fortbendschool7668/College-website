@@ -1,0 +1,203 @@
+<html>
+    <link rel="stylesheet" href="class11.css">
+
+    <head>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>
+            College Form
+        </title>
+
+    </head>
+    <body>
+    <header>
+        <nav class="navbar-inverse navbar-fixed-top mynavbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target="#menuing">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="menuing" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li> <a href="#form1">   Form  </a>
+                     </li>
+
+                    <li> <a href="#Location"> Location</a>
+                       </li>
+
+                    <li> <a href="#About"> About College</a>
+                        </li>
+
+                    <li> <a href="#Contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+ 
+        <form id="form" method="get" action="send.html">
+            <div id="form1">
+                <fieldset>
+                    <legend>
+                        <h1> College Application Form</h1>
+                    </legend>
+                    <label> Enter your full name :</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label> Enter your unweighted gpa</label>
+                    <input type="number" id="ugpa" name="ugpa" required>
+                    <br><br>
+                    <label> Enter your weighted gpa</label>
+                    <input type="number" id="wgpa" name="wgpa" required>
+                    <br><br>
+                    <label> Which high school did you attend?</label>
+                    <input type="text" id="hschool" name="hschool" required>
+                    <br><br>
+                    <label> Enter your major</label>
+                    <input type="text" id="major" name="major" required>
+                    <br><br>
+                    <label>Enter your endorsement</label>
+                    <input type="text" id="endorsement" name="endorsement"
+                        required>
+                    <br><br>
+                    <label>Enter your highest SAT score</label>
+                    <input type-="number" id="score" name="score" required>
+                    <br><br>
+                    <label>Why do you want to be apart of this college? List 3-4
+                        reasons. </label>
+                    <input type="text" id="reason" name="reason" required>
+                    <br><br>
+                    <label> What grade are you in?</label>
+                    <input type="number" id="grade" name="grade" required>
+                    <br><br>
+                    <label>What is your ethnicity</label>
+                    <select id="ethnicity" name="ethnicity">
+                        <option value="American"> American</option>
+                        <option value="European">European</option>
+                        <option value="Asian">Asian</option>
+                        <option value="Hispanic/latin">Hispanic/latin</option>
+                        <option value="Native American">Native American</option>
+                        <option value="Black">Black</option>
+                        <option value="Pacific Islander">Pacific
+                            Islander</option>
+                        <option value="2 or more races">2 or more races</option>
+                    </select><br><br>
+                    <label> What are your extra curriculars</label>
+                    <select id="extracurriculars" name="extracurriculars">
+                        <option value="Art"> Art</option>
+                        <option value="Music">Music</option>
+                        <option value="Theatre">Theatre</option>
+                        <option value="Coding">Coding</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Language learning">Language
+                            Learning</option>
+                        <option value="Tutions">Tutions</option>
+                        <option value="Debate">Debate</option>
+                        <option value="Robotics"> Robotics</option>
+                    </select><br><br>
+                    <label>How many and where have you done any volunteer
+                        hours</label>
+                    <input type="text" id="volunteer" name="volunteer" required>
+                    <br><br>
+                    <label> Have you done any academic projects or
+                        research</label>
+                    ,<input type="text" id="projects" name="projects" required>
+                    <br><br>
+                    <label>Are you applying for any scholarships</label>
+                    <input type="text" id=" scholarships" name="scholarships"
+                        required>
+                    <br><br>
+                    <label>Which Language/s do you speak</label>
+                    <br><br>
+                    <input type="checkbox"
+                        value="English"><label>English</label><br>
+                    <input type="checkbox"
+                        value="Spanish"><label>Spanish</label><br>
+                    <input type="checkbox"
+                        value="French"><label>French</label><br>
+                    <input type="checkbox"
+                        value="Hindi"><label>Hindi</label><br>
+                    <input type="checkbox"
+                        value="Chinese"><label>Chinese</label><br>
+                    <input type="checkbox"
+                        value="German"><label>German</label><br>
+                    <input type="checkbox"
+                        value="Greek"><label>Greek</label><br>
+                    <input type="checkbox"
+                        value="Itallian"><label>Itallian</label><br>
+                    <input type="checkbox"
+                        value="Korean"><label>Korean</label><br>
+                    <input type="checkbox"
+                        value="Dutch"><label>Dutch</label><br>
+
+                    <label>What is your email</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label>What is your phone number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <br><br>
+                    <button type="submit"> Submit</button><br><br>
+                </fieldset>
+            </form>
+        </div>
+        <div id="Location">
+            <h1>College Location</h1>
+            <p>
+                Address:77 Massachusetts Avenue, Cambridge,
+                <br>
+                <br>
+                <br>
+                <img src="https://wallpaperaccess.com/full/6225270.jpg">
+            </p>
+
+        </div>
+        <div id="About">
+            <h1> About the College</h1>
+            <p>
+                College name: MIT (Massachusetts Institute of Technology)
+                <br>
+                Description:The Massachusetts Institute of Technology (MIT) is a
+                private land-grant<br>
+                research university in Cambridge, Massachusetts1.Established in
+                1861, MIT has played<br>
+                a significant role in the development of many areas of modern
+                technology and science.<br>
+                The mission of MIT is to advance knowledge and educate students
+                in science, technology,<br>
+                and other areas of scholarship that will best serve the nation
+                and the world in the 21st century.
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+
+        </div>
+        <div id="Contact">
+            <h1>Contact us</h1>
+            <p>Email:admissions@mit.edu.
+
+                <br>
+                Number:617-253-1000
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+
+        </div>
+
+    </body>
+
+</html>

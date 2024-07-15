@@ -1,0 +1,41 @@
+#form{
+    margin: 0;
+    padding: 160;
+    background-color: rgb(249, 212, 251);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.mynavbar{
+    position:sticky;
+    top:0;
+    width:100%;
+    z-index:99999;
+}
+#Location{
+    background-color: rgb(119, 167, 117);
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+#About{
+    background-color: rgb(173, 141, 254);
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+#Contact{
+    background-color: rgb(166, 176, 246);
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+img{
+    width:500px
+}
+
+
+li{
+padding-left: 25px;
+color: aliceblue;
+font-size: 30px;
+}
